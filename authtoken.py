@@ -1,10 +1,6 @@
 import os
 from dotenv import load_dotenv
 load_dotenv()
-
-print(f"SATX_USERNAME: {os.getenv('SATX_USERNAME')}")
-print(f"SATX_PASSWORD: {os.getenv('SATX_PASSWORD')}")
-
 import requests
 
 def obter_token():
